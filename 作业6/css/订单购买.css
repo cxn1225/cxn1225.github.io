@@ -1,0 +1,313 @@
+html {
+	font-size: 50px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.index {
+	position: relative;
+}
+
+.head {
+	position: relative;
+}
+
+.head1>p {
+	font-size: 0.36rem;
+	text-align: center;
+	padding: 0.2rem 0;
+	font-weight: 800;
+	float: left;
+}
+
+.head1 p a {
+	color: #000000;
+}
+
+.head1 .p1 {
+	margin-left: 0.2rem;
+}
+
+.head1 .p1 a img {
+	width: 0.5rem;
+	height: 0.44rem;
+}
+
+.head1 .p2 {
+	width: 1.5rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.head2 {
+	margin: 0.4rem 0.5rem 0 0.5rem;
+	position: relative;
+}
+
+.p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.p .p1 {
+	font-size: 0.36rem;
+	font-weight: 600;
+}
+
+.p .p2 {
+	font-size: 0.24rem;
+	color: #878787;
+}
+
+.img1 {
+	text-align: center;
+}
+
+.img1 img {
+	width: 2.26rem;
+	height: 2.55rem;
+}
+
+.img2 {
+	margin: auto;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-top: 0.45rem;
+}
+
+.img2 img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.center {
+	margin-top: 0.5rem;
+}
+
+.center .p1 {
+	font-size: 0.36rem;
+	font-weight: 600;
+	margin-bottom: 0.32rem;
+}
+
+.center .p2 {
+	float: left;
+	margin-bottom: 0.45rem;
+	font-size: 0.24rem;
+	color: #878787;
+}
+
+.center .p3 {
+	float: right;
+	margin-bottom: 0.45rem;
+	font-size: 0.24rem;
+	color: #878787;
+}
+
+.center2 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 0.25rem;
+}
+
+.shop {
+	width: 2.9rem;
+	height: 2.6rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 0.35rem;
+}
+
+.shop .shang {
+	width: 100%;
+	margin: 0.3rem;
+	margin-bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shop .p {
+	display: block;
+	width: 1.5rem;
+}
+
+.shop .p .p1 {
+	display: block;
+	font-size: 0.30rem;
+	color: #cccc;
+}
+
+.shop .p .p2 {
+	display: block;
+	font-size: 0.48rem;
+	width: 1.7rem;
+}
+
+.shop .p .p3 {
+	display: block;
+	font-size: 0.2rem;
+	width: 2.8rem;
+	color: #ccc;
+	margin-left: -0.2rem;
+}
+
+.shop .img {
+	width: 0.55rem;
+	height: 0.5rem;
+	margin-left: 0.3rem;
+}
+
+.shop img {
+	width: 100%;
+	height: 100%;
+}
+
+.xia {
+	width: 100%;
+	height: 0.8rem;
+	border-top: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.xia img {
+	width: 0.35rem;
+	height: 0.35rem;
+}
+
+.footer p {
+	text-align: center;
+	position: relative;
+}
+
+.xia2 {
+	border-top: 1px solid #ccc;
+	margin-top: 0.2rem;
+	padding: 0.3rem 0 0.3rem 0;
+}
+
+.xia2 .left {
+	float: left;
+	margin-left: 0.6rem;
+}
+
+.xia2 .right {
+	float: right;
+	margin-right: 0.6rem;
+}
+
+.xia2 .right input {
+	color: #ffffff;
+	background-color: #69BE49;
+	border-radius: 5px;
+	width: 1.5rem;
+	height: 0.65rem;
+	font-size: 0.3rem;
+	border: 0;
+}
+
+#wai {
+	position: absolute;
+	background-color: #000000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	display: none;
+	opacity: 0.4;
+}
+
+#tankuang {
+	margin: auto;
+	width: 4.6rem;
+	height: 6.5rem;
+	position: absolute;
+	background-color: #fff;
+	padding: 0.55rem 0.35rem 0 0.35rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	z-index: 2;
+	border-radius: 5px;
+}
+
+#tankuang .p1 {
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+
+#tankuang .p2 {
+	margin: 0.3rem 0 0.3rem 0;
+	font-size: 0.22rem;
+	color: #878787;
+}
+
+#tankuang div {
+	height: 3.25rem;
+	background-color: #ccc;
+}
+
+#tankuang input {
+	color: #69BE49;
+	background-color: #ffffff;
+	border-radius: 5px;
+	width: 100%;
+	height: 0.88rem;
+	text-align: center;
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+
+
+@media screen and (width: 414px) {
+	html {
+		font-size: 55px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 45px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 85px;
+	}
+
+	.shop:nth-child(odd) {
+		margin-left: 0.55rem;
+	}
+
+	.shop:nth-child(even) {
+		margin-right: 0.55rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: 115px;
+	}
+
+	.shop:nth-child(odd) {
+		margin-left: 0.55rem;
+	}
+
+	.shop:nth-child(even) {
+		margin-right: 0.55rem;
+	}
+}

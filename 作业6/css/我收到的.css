@@ -1,0 +1,156 @@
+html {
+	font-size: 50px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.index {
+	margin: auto;
+	margin: 0 0.3rem 0 0.3rem;
+}
+
+.head {
+	position: relative;
+}
+
+.head1>p {
+	font-size: 0.36rem;
+	text-align: center;
+	padding: 0.2rem 0;
+	font-weight: 800;
+	float: left;
+}
+
+.head1 p a {
+	color: #000000;
+}
+
+.head1 .p1 {
+	margin-left: 0.2rem;
+}
+
+.head1 .p1 a img {
+	width: 0.5rem;
+	height: 0.44rem;
+}
+
+.head1 .p2 {
+	width: 1.5rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.shang {
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 0.3rem;
+	padding-top: 0.4rem;
+}
+
+.shang img {
+	width: 0.66rem;
+	height: 0.66rem;
+}
+
+.shang>p {
+	margin-top: 0.1rem;
+}
+
+.shang .p1 {
+	font-size: 0.3rem;
+}
+
+.shang .p2 {
+	font-size: 0.6rem;
+}
+
+.shang .p3 {
+	font-size: 0.3rem;
+	padding-bottom: 0.8rem;
+}
+
+.xia {
+	margin-top: 0.3rem;
+	padding: 0.3rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#s,
+#x {
+	display: flex;
+	justify-content: space-between;
+}
+
+#s .p1 {
+	font-size: 0.3rem;
+	font-weight: 500;
+}
+
+#s .p2 {
+	font-size: 0.24rem;
+}
+
+#x .p1 {
+	font-size: 0.24rem;
+	font-weight: 800;
+}
+
+#x .p1 img {
+	width: 0.66rem;
+	height: 0.66rem;
+}
+
+#x .p2 {
+	font-size: 0.24rem;
+}
+
+.xia #s {
+	margin-bottom: 0.45rem;
+}
+
+.ke {
+	color: #F7BE11;
+}
+
+.yi {
+	color: #69BE49;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 0.6rem;
+	margin-bottom: 0.4rem;
+}
+
+
+
+@media screen and (width: 414px) {
+	html {
+		font-size: 55px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 45px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 85px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: 115px;
+	}
+}
