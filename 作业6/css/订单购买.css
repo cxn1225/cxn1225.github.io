@@ -229,7 +229,7 @@ html {
 	margin: auto;
 	width: 4.6rem;
 	height: 6.5rem;
-	position: absolute;
+	position: fixed;
 	background-color: #fff;
 	padding: 0.55rem 0.35rem 0 0.35rem;
 	top: 0;
